@@ -1,0 +1,3 @@
+#teste
+get(#teste)
+show(#teste)
