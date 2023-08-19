@@ -59,4 +59,4 @@ get #j
 show #k
 ```
 
-O usuario pode alterar os valores se desejar
+O usuário pode alterar os valores se desejar
