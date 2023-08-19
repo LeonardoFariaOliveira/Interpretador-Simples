@@ -65,12 +65,14 @@ namespace  Translator{
             }
 
             if(_peek == 'g'){
+                //get
                 if(TestSuffix("et")){
                     return new Token(ETokenType.INPUT);
                 }
             }
 
             if(_peek == 's'){
+                //show
                 if(TestSuffix("how")){
                     return new Token(ETokenType.OUTPUT);
                 }

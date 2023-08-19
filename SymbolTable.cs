@@ -38,6 +38,23 @@ namespace Translator{
             return (null, 0);
         }
 
+               public double? Get(Int32 key)
+        {
+            if (!(_data.ContainsKey(key)))
+                return null;
+            TableEntry entry = _data[key];
+            return entry.Value;
+        }
+
+
+        public TableEntry? GetEntry(Int32 key)
+        {
+            if (!(_data.ContainsKey(key)))
+                return null;
+            TableEntry entry = _data[key];
+            return entry;
+        }
+
         
     
 

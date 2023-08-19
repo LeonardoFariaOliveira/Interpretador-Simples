@@ -12,12 +12,15 @@ namespace Translator{
             var st = new SymbolTable();
             var reader = new StreamReader(path);
             var lexer = new Lexer(reader, st);
+            var parser = new Parser(lexer, st);
 
-            Token t;
-            do {
-                t = lexer.GetNextToken();
-                Console.WriteLine($"<{t.Type},{t.Value}>");
-            } while (t.Type != ETokenType.EOF && t.Type != ETokenType.ERR);
+            parser.Prog();
+
+            // Token t;
+            // do {
+            //     t = lexer.GetNextToken();
+            //     Console.WriteLine($"<{t.Type},{t.Value}>");
+            // } while (t.Type != ETokenType.EOF && t.Type != ETokenType.ERR);
 
 
             // Console.WriteLine(st);

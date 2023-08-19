@@ -1,3 +1,4 @@
-#teste
-get(#teste)
-show(#teste)
+1 + ((1 * 8)/(2-1))
+#r = 8
+get #j
+show #k
