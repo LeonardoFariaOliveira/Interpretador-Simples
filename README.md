@@ -36,7 +36,15 @@ na classe Token:
 
 O construtor Token permite criar instâncias dessa classe, especificando o tipo e, opcionalmente, um valor para o token. Isso permite que o compilador armazene informações sobre cada token encontrado durante a análise léxica e use essas informações posteriormente durante a análise sintática e a geração de código intermediário ou assembly.
 
-# Instalação
+## Instalação
 Pré-requisitos: Certifique-se de ter o ambiente .NET Core instalado em sua máquina.
 
-Clonando o Repositório: git clone https://github.com/LeonardoFariaOliveira/Interpretador-Simples
+```bash
+$ git clone https://github.com/LeonardoFariaOliveira/Interpretador-Simples
+$ cd Interpretador-Simples
+```
+
+## Running the compiler
+
+
+
