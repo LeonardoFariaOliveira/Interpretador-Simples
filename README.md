@@ -54,7 +54,7 @@ dotnet run text.txt
 * Arquivo txt
 ```bash
 $ 1 + ((1 * 8)/(2-1))
-#r = 8
+r = 8
 get #j
 show #k
 ```
