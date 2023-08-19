@@ -1,5 +1,5 @@
 # Interpretador-Simples
-Compilador feito em C# que converte o codigo fonte em linguagem de programação desejada para codigo assembly.
+Compilador feito em C# que converte o codigo fonte em linguagem de programação desejada para codigo assembly. Abaixo, possui a descrição das classes do compilador.
 
 # ETokenType
 Define os tipos de tokens que esse compilador possui, alguns exemplos:
@@ -35,39 +35,6 @@ na classe Token:
 * 'Value' é uma propriedade que armazena um valor associado ao token, se for aplicável. No seu caso, é um número inteiro que pode estar relacionado ao valor de um token, como um valor numérico associado a um número encontrado no código-fonte.
 
 O construtor Token permite criar instâncias dessa classe, especificando o tipo e, opcionalmente, um valor para o token. Isso permite que o compilador armazene informações sobre cada token encontrado durante a análise léxica e use essas informações posteriormente durante a análise sintática e a geração de código intermediário ou assembly.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Instalação
 Pré-requisitos: Certifique-se de ter o ambiente .NET Core instalado em sua máquina.
