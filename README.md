@@ -46,5 +46,17 @@ $ cd Interpretador-Simples
 
 ## Running the compiler
 
+* No terminal
+```bash
+dotnet run text.txt
+```
 
+* Arquivo txt
+```bash
+$ 1 + ((1 * 8)/(2-1))
+#r = 8
+get #j
+show #k
+```
 
+O usuario pode alterar os valores se desejar
