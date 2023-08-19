@@ -19,7 +19,7 @@ A tabela de entrada funciona juntamente com a tabela de símbolos para criar uma
 Na classe TableEntry:
 
 * Possui três propriedades: 'Type', 'Name' e 'Value'.
-* 'Type' é uma propriedade que armazena o tipo do símbolo, usando a enumeração ETokenType que provavelmente é definida em algum lugar no seu código.
+* 'Type' é uma propriedade que armazena o tipo do símbolo, usando a enumeração ETokenType.
 * 'Name' é uma propriedade que armazena o nome do símbolo (por exemplo, o nome de uma variável ou palavra-chave).
 * 'Value' é uma propriedade que armazena o valor associado ao símbolo, se for aplicável. No caso de variáveis numéricas ou constantes, isso pode representar o valor numérico da variável.
 
